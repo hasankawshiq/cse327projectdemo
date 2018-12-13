@@ -23,4 +23,15 @@ public class from_login extends JFrame{
     
     
     private static void main(String [] args) {
-        Even
+        EventQueue.invokeLater( new Runnable() {
+            public void run() {
+                try {
+                    form_login frame = new form_login();
+                    frame.setVisible(true);
+                    }
+                catch(Exception e) {
+                    e.printstackTrace()
+                    }
+            }
+        });
+    }
