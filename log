@@ -14,7 +14,22 @@ public class log extends JFrame
 {  private Jpanel contentPane; // Launch the application
 
 public static void main (String[] args
-{ EventQueue. 
+ { EventQueue.invokeLater(new Runnable () 
+   { try {
+       log frame = new log ();
+       frame.setVisible (true);
+       }
+     catch (Exception e)
+        { 
+        e.printStackTrace();
+        }
+       }
+      } );
+    }
+     
+     
+           
+       
 
 
  
