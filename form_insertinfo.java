@@ -52,9 +52,7 @@ int t;
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public form_insertinfo() {
 		
 		setTitle("Vehicle Allocation System");
