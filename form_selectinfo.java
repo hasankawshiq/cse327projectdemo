@@ -29,9 +29,6 @@ public class form_selectinfo extends JFrame {
 	public static JTextField textField_5;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -45,9 +42,6 @@ public class form_selectinfo extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
 	public form_selectinfo() {
 		setTitle("Vehicle Allocation System");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
