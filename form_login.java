@@ -21,13 +21,6 @@ public class form_login extends JFrame {
 	private JTextField textField;
 	private JPasswordField password;
 
-	/**
-	 * Launch the application.
-	 */
-		
-		
-
-		
 	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -42,11 +35,8 @@ public class form_login extends JFrame {
 		});
 	}
 
-/**
-	 * Create the frame.
-	 */
 	public form_login() {
-	setTitle("Car Parking");
+	setTitle("Vehicle Allocation System");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 550, 561);
 		contentPane = new JPanel();
@@ -61,12 +51,12 @@ public class form_login extends JFrame {
 		textField.setColumns(10);
 		
 		JLabel lblUserName = new JLabel("User name");
-		lblUserName.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblUserName.setFont(new Font("Times New Roman", Font.BOLD, 15));
 		lblUserName.setBounds(20, 195, 139, 14);
 		contentPane.add(lblUserName);
 		
 		JLabel lblPassword = new JLabel("Password");
-		lblPassword.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblPassword.setFont(new Font("Times New Roman", Font.BOLD, 15));
 		lblPassword.setBounds(20, 251, 139, 14);
 		contentPane.add(lblPassword);
 		
@@ -88,12 +78,12 @@ public class form_login extends JFrame {
 		contentPane.add(password);
 		
 		JLabel lblPleaseEnterThe = new JLabel("Please enter the user name and password");
-		lblPleaseEnterThe.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 20));
+		lblPleaseEnterThe.setFont(new Font("Times New Roman", Font.BOLD | Font.ITALIC, 20));
 		lblPleaseEnterThe.setBounds(20, 24, 472, 38);
 		contentPane.add(lblPleaseEnterThe);
 		
 		JLabel lblNewLabel = new JLabel(" ");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Apple\\Desktop\\Best-Background-1.jpg"));
+		lblNewLabel.setIcon(new ImageIcon(""));
 		lblNewLabel.setBounds(0, 0, 534, 522);
 		contentPane.add(lblNewLabel);
 	}
