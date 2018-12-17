@@ -58,9 +58,7 @@ public static JTextField textField_25;
 public static JTextField textField_26;
 private final ButtonGroup buttonGroup_1 = new ButtonGroup();
 private final ButtonGroup buttonGroup_2 = new ButtonGroup();
-	/**
-	 * Launch the application.
-	 */
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -74,9 +72,6 @@ private final ButtonGroup buttonGroup_2 = new ButtonGroup();
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
 	public tab() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(""));
 		setTitle("Vehicle Allocation System");
