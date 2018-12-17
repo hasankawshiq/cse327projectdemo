@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 21, 2017 at 06:22 PM
+-- Generation Time: Dec 10, 2018 at 06:22 PM
 -- Server version: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `heisenberg`
+-- Database: `kawshiq`
 --
 
 -- --------------------------------------------------------
@@ -40,8 +40,8 @@ CREATE TABLE IF NOT EXISTS `information` (
 --
 
 INSERT INTO `information` (`Con_no`, `token_no`, `date`, `time`, `day`, `gender`) VALUES
-('111', '222', '12-33-200', '12:00', 'wed', 'commercial'),
-('236', 'tayyab', 'ali', 'hfhfh', '33255120', 'Home');
+('666', '222', '17-12-18', '12:00', 'mon', 'commercial'),
+('236', 'mortuza', 'antar', 'hfhfh', '33255120', 'Home');
 
 --
 -- Indexes for dumped tables
