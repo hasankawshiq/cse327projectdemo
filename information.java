@@ -11,7 +11,7 @@ public class information {
 	void insert(String con_no, String token_no,String date,String time,String day,String gender)
 	{
 	
-		String db = "jdbc:mysql://127.0.0.1:3306/car_parking";
+		String db = "";
 		String user = "root";
 		String pass = "";
 		
