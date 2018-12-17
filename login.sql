@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 21, 2017 at 06:22 PM
+-- Generation Time: Dec 10, 2018 at 06:22 PM
 -- Server version: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `heisenberg`
+-- Database: `kawshiq`
 --
 
 -- --------------------------------------------------------
